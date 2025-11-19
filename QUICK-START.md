@@ -1,5 +1,18 @@
 # Quick Start Guide - Financial Statement Analyzer
 
+## ⚠️ IMPORTANT: Setup Required
+
+**Before you start**, you need an Anthropic API key:
+
+👉 **[Read API-SETUP.md for full instructions](API-SETUP.md)**
+
+Quick version:
+1. Get free API key from [console.anthropic.com](https://console.anthropic.com)
+2. Open the app and click Settings (⚙️)
+3. Paste your API key and save
+
+---
+
 ## 🚀 Get Started in 3 Steps
 
 ### 1️⃣ Open the App

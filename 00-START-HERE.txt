@@ -8,11 +8,26 @@
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📱 QUICK START (3 STEPS - TAKES 1 MINUTE)
+⚠️  IMPORTANT: API KEY REQUIRED!
 
-   Step 1: Open "financial-analyzer.html" in your browser
-   Step 2: Upload "sample-financial-statement.txt" (or your own file)
-   Step 3: Get instant analysis with AI-powered insights!
+   You need an Anthropic API key to use this app.
+
+   👉 See API-SETUP.md for detailed instructions
+   👉 Get your free key at: https://console.anthropic.com
+
+   Quick setup:
+   1. Get API key from console.anthropic.com
+   2. Open app and click Settings (⚙️)
+   3. Paste key and save
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 QUICK START (4 STEPS - TAKES 2 MINUTES)
+
+   Step 1: Get your Anthropic API key (see API-SETUP.md)
+   Step 2: Open "financial-analyzer.html" in your browser
+   Step 3: Add your API key in Settings (⚙️)
+   Step 4: Upload "sample-financial-statement.txt" and get results!
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
