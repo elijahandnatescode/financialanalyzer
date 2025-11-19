@@ -3,17 +3,32 @@
 ## Overview
 A powerful, AI-powered financial statement analyzer with a sleek dark theme interface. Upload any financial document and get instant analysis, health scores, and personalized investment recommendations.
 
-## ⚠️ Important: API Key Required
+## ⚠️ IMPORTANT: Deployment Required
 
-**Before using the app**, you need to configure your Anthropic API key:
+**This app must be deployed to work properly.** Opening the HTML file directly will cause CORS errors.
+
+### Quick Start (2 minutes):
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+cd financialanalyzer
+vercel
+
+# Open the URL Vercel provides
+```
+
+**See [CORS-FIX.md](CORS-FIX.md) for detailed deployment instructions.**
+
+### After Deployment:
 
 1. Get an API key from [console.anthropic.com](https://console.anthropic.com)
-2. Open the app and click the Settings icon (⚙️) in the top-right
+2. Open the deployed app and click the Settings icon (⚙️)
 3. Paste your API key and click "Save"
 
-**See [API-SETUP.md](API-SETUP.md) for detailed instructions.**
-
-Your API key is stored locally in your browser and used only to communicate with Claude AI.
+**See [API-SETUP.md](API-SETUP.md) for API key setup instructions.**
 
 ## Features
 

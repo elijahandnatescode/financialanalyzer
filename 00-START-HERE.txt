@@ -8,26 +8,28 @@
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-⚠️  IMPORTANT: API KEY REQUIRED!
+⚠️  CRITICAL: MUST DEPLOY TO USE!
 
-   You need an Anthropic API key to use this app.
+   This app MUST be deployed to work (opening HTML file directly won't work).
 
-   👉 See API-SETUP.md for detailed instructions
-   👉 Get your free key at: https://console.anthropic.com
+   👉 See CORS-FIX.md for why and how to fix
+   👉 Deploy to Vercel (FREE) in 2 minutes
 
-   Quick setup:
-   1. Get API key from console.anthropic.com
-   2. Open app and click Settings (⚙️)
-   3. Paste key and save
+   Quick deployment:
+   1. Run: npm install -g vercel
+   2. Run: vercel (in this directory)
+   3. Open the URL Vercel provides
+   4. Add API key in Settings (⚙️)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📱 QUICK START (4 STEPS - TAKES 2 MINUTES)
+📱 DEPLOYMENT STEPS (TAKES 2 MINUTES)
 
-   Step 1: Get your Anthropic API key (see API-SETUP.md)
-   Step 2: Open "financial-analyzer.html" in your browser
-   Step 3: Add your API key in Settings (⚙️)
-   Step 4: Upload "sample-financial-statement.txt" and get results!
+   Step 1: Install Vercel CLI: npm install -g vercel
+   Step 2: Deploy: vercel (in this directory)
+   Step 3: Get API key from console.anthropic.com
+   Step 4: Open deployed URL and add API key in Settings
+   Step 5: Upload "sample-financial-statement.txt" and analyze!
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
