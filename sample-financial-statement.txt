@@ -1,0 +1,153 @@
+ACME CORPORATION
+CONSOLIDATED FINANCIAL STATEMENTS
+For the Year Ended December 31, 2024
+
+CONSOLIDATED BALANCE SHEET
+(In millions, except share data)
+
+ASSETS
+Current Assets:
+  Cash and cash equivalents                     $2,450
+  Accounts receivable, net                       1,850
+  Inventory                                      3,200
+  Prepaid expenses                                 380
+  Total Current Assets                           7,880
+
+Property, Plant and Equipment:
+  Land and buildings                             5,600
+  Machinery and equipment                        8,200
+  Less: Accumulated depreciation                (4,100)
+  Net Property, Plant and Equipment              9,700
+
+Other Assets:
+  Goodwill                                       2,100
+  Intangible assets, net                         1,400
+  Long-term investments                            920
+  Total Other Assets                             4,420
+
+TOTAL ASSETS                                   $22,000
+
+LIABILITIES AND SHAREHOLDERS' EQUITY
+Current Liabilities:
+  Accounts payable                              $1,650
+  Accrued expenses                               1,200
+  Short-term debt                                  800
+  Current portion of long-term debt                450
+  Total Current Liabilities                      4,100
+
+Long-term Liabilities:
+  Long-term debt                                 5,500
+  Deferred tax liabilities                         780
+  Other long-term liabilities                      620
+  Total Long-term Liabilities                    6,900
+
+Total Liabilities                               11,000
+
+Shareholders' Equity:
+  Common stock ($0.01 par value)                    50
+  Additional paid-in capital                     4,200
+  Retained earnings                              7,150
+  Accumulated other comprehensive loss            (400)
+  Total Shareholders' Equity                    11,000
+
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY     $22,000
+
+CONSOLIDATED STATEMENT OF INCOME
+(In millions, except per share data)
+
+Revenue                                        $18,500
+Cost of goods sold                             (11,100)
+Gross Profit                                     7,400
+Gross Margin %                                      40%
+
+Operating Expenses:
+  Selling, general and administrative           (3,700)
+  Research and development                      (1,200)
+  Total Operating Expenses                      (4,900)
+
+Operating Income                                 2,500
+Operating Margin %                                13.5%
+
+Other Income (Expense):
+  Interest expense                                (420)
+  Other income, net                                 85
+  Total Other Expense                             (335)
+
+Income Before Taxes                              2,165
+Income tax expense                                (520)
+
+NET INCOME                                      $1,645
+Net Profit Margin %                               8.9%
+
+Earnings per share - Basic                       $3.29
+Earnings per share - Diluted                     $3.21
+
+Weighted average shares outstanding (millions):
+  Basic                                             500
+  Diluted                                           512
+
+CONSOLIDATED STATEMENT OF CASH FLOWS
+(In millions)
+
+Operating Activities:
+  Net income                                    $1,645
+  Adjustments to reconcile net income:
+    Depreciation and amortization                 980
+    Stock-based compensation                      145
+    Changes in working capital                   (215)
+  Net cash from operating activities            2,555
+
+Investing Activities:
+  Capital expenditures                          (1,450)
+  Acquisitions, net of cash acquired              (320)
+  Purchases of investments                        (180)
+  Net cash used in investing activities         (1,950)
+
+Financing Activities:
+  Proceeds from debt issuance                    1,000
+  Repayment of debt                               (800)
+  Dividends paid                                  (410)
+  Share repurchases                               (250)
+  Net cash used in financing activities           (460)
+
+Net increase in cash                               145
+Cash at beginning of year                        2,305
+Cash at end of year                             $2,450
+
+KEY FINANCIAL RATIOS:
+
+Liquidity Ratios:
+  Current Ratio: 1.92 (Current Assets / Current Liabilities)
+  Quick Ratio: 1.14
+
+Profitability Ratios:
+  Gross Profit Margin: 40.0%
+  Operating Profit Margin: 13.5%
+  Net Profit Margin: 8.9%
+  Return on Assets (ROA): 7.5%
+  Return on Equity (ROE): 15.0%
+
+Leverage Ratios:
+  Debt-to-Equity: 0.57
+  Debt-to-Assets: 0.29
+  Interest Coverage: 5.95x
+
+Efficiency Ratios:
+  Asset Turnover: 0.84x
+  Inventory Turnover: 3.47x
+  Receivables Turnover: 10.0x
+
+MANAGEMENT'S DISCUSSION:
+
+ACME Corporation demonstrated strong financial performance in 2024, with revenue growth of 12% 
+year-over-year driven by increased demand across all product segments. The company maintained 
+healthy gross margins of 40% through operational efficiency improvements and favorable product mix.
+
+The company's balance sheet remains strong with a current ratio of 1.92 and moderate leverage 
+at 0.57 debt-to-equity. Cash generation from operations was robust at $2.6 billion, supporting 
+continued investments in growth initiatives, shareholder returns through dividends and buybacks, 
+and strategic debt reduction.
+
+Looking forward, management expects continued revenue growth in the range of 10-15% for 2025, 
+supported by new product launches and market expansion. The company maintains its commitment 
+to delivering strong returns to shareholders while investing in long-term growth opportunities.
