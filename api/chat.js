@@ -1,7 +1,7 @@
 // Vercel Serverless Function - Chat API Proxy for Anthropic
 // This handles CORS and keeps API keys secure on the server
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     // Enable CORS
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -29,9 +29,11 @@ export default async function handler(req, res) {
         }
 
         if (!apiKey) {
-            res.status(400).json({ error: 'API key is required' });
+            res.status(400).json({ error: 'API key is required. Please add your Anthropic API key in Settings.' });
             return;
         }
+
+        console.log('Making chat API request to Anthropic...');
 
         // Call Anthropic API from server (no CORS issues)
         const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -48,23 +50,45 @@ export default async function handler(req, res) {
             })
         });
 
+        console.log('Anthropic API response status:', response.status);
+
         if (!response.ok) {
-            const errorData = await response.json().catch(() => ({}));
+            const errorText = await response.text();
+            let errorData;
+            try {
+                errorData = JSON.parse(errorText);
+            } catch {
+                errorData = { message: errorText };
+            }
+
+            console.error('Anthropic API error:', response.status, errorData);
+
+            // Provide user-friendly error messages
+            let userMessage = `API error: ${response.status}`;
+            if (response.status === 401) {
+                userMessage = 'Invalid API key. Please check your Anthropic API key in Settings.';
+            } else if (response.status === 429) {
+                userMessage = 'Rate limit exceeded. Please wait a moment and try again.';
+            } else if (response.status === 402) {
+                userMessage = 'Insufficient credits. Please add credits to your Anthropic account.';
+            }
+
             res.status(response.status).json({
-                error: `Anthropic API error: ${response.status}`,
+                error: userMessage,
                 details: errorData
             });
             return;
         }
 
         const data = await response.json();
+        console.log('Chat response successful');
         res.status(200).json(data);
 
     } catch (error) {
         console.error('Error in chat function:', error);
         res.status(500).json({
-            error: 'Internal server error',
+            error: 'Server error: ' + error.message,
             message: error.message
         });
     }
-}
+};
