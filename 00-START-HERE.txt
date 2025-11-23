@@ -8,11 +8,28 @@
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📱 QUICK START (3 STEPS - TAKES 1 MINUTE)
+⚠️  CRITICAL: MUST DEPLOY TO USE!
 
-   Step 1: Open "financial-analyzer.html" in your browser
-   Step 2: Upload "sample-financial-statement.txt" (or your own file)
-   Step 3: Get instant analysis with AI-powered insights!
+   This app MUST be deployed to work (opening HTML file directly won't work).
+
+   👉 See CORS-FIX.md for why and how to fix
+   👉 Deploy to Vercel (FREE) in 2 minutes
+
+   Quick deployment:
+   1. Run: npm install -g vercel
+   2. Run: vercel (in this directory)
+   3. Open the URL Vercel provides
+   4. Add API key in Settings (⚙️)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 DEPLOYMENT STEPS (TAKES 2 MINUTES)
+
+   Step 1: Install Vercel CLI: npm install -g vercel
+   Step 2: Deploy: vercel (in this directory)
+   Step 3: Get API key from console.anthropic.com
+   Step 4: Open deployed URL and add API key in Settings
+   Step 5: Upload "sample-financial-statement.txt" and analyze!
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
